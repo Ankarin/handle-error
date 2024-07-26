@@ -1,7 +1,3 @@
-# handle-error
-Error handling in TS in a Golang like style
-
-```typescript
 async function handle<T>(
     promise: Promise<T>,
 ): Promise<{ result: T | null; err: Error | null }> {
